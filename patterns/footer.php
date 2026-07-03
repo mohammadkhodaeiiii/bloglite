@@ -1,0 +1,51 @@
+<?php
+/**
+ * Footer pattern.
+ *
+ * @package BlogLite
+ */
+
+return array(
+	'title'       => __( 'پاورقی', 'bloglite' ),
+	'description' => __( 'پاورقی چندستونه با اطلاعات سایت، پیمایش و شبکه‌های اجتماعی.', 'bloglite' ),
+	'categories'  => array( 'bloglite', 'footer' ),
+	'keywords'    => array( 'footer', 'columns', 'navigation' ),
+	'content'     => '<!-- wp:group {"align":"full","style":{"color":{"background":"var:preset|color|foreground","text":"var:preset|color|background"},"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-background has-text-color" style="color:var(--wp--preset--color--background);background-color:var(--wp--preset--color--foreground)">
+	<!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|50"}}}} -->
+	<div class="wp-block-columns">
+		<!-- wp:column {"width":"40%"} -->
+		<div class="wp-block-column" style="flex-basis:40%">
+			<!-- wp:site-title {"level":2,"style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}}}} /-->
+			<!-- wp:site-tagline {"style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"textColor":"background"} /-->
+		</div>
+		<!-- /wp:column -->
+		<!-- wp:column {"width":"30%"} -->
+		<div class="wp-block-column" style="flex-basis:30%">
+			<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+			<h3 class="wp-block-heading has-medium-font-size">پیمایش</h3>
+			<!-- /wp:heading -->
+			<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"fontSize":"small"} /-->
+		</div>
+		<!-- /wp:column -->
+		<!-- wp:column {"width":"30%"} -->
+		<div class="wp-block-column" style="flex-basis:30%">
+			<!-- wp:heading {"level":3,"fontSize":"medium"} -->
+			<h3 class="wp-block-heading has-medium-font-size">ارتباط</h3>
+			<!-- /wp:heading -->
+			<!-- wp:paragraph {"fontSize":"small"} -->
+			<p class="has-small-font-size">ساخته‌شده با بلاگ‌لایت — با تمرکز بر خوانایی و کارایی.</p>
+			<!-- /wp:paragraph -->
+		</div>
+		<!-- /wp:column -->
+	</div>
+	<!-- /wp:columns -->
+	<!-- wp:separator {"className":"is-style-wide"} -->
+	<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+	<!-- /wp:separator -->
+	<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
+	<p class="has-text-align-center has-small-font-size">قدرت‌گرفته از <a href="https://wordpress.org">وردپرس</a></p>
+	<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->',
+);

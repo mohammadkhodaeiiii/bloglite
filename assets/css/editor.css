@@ -1,0 +1,22 @@
+/**
+ * BlogLite editor styles.
+ *
+ * @package BlogLite
+ */
+
+.editor-styles-wrapper {
+	font-family: var(--wp--preset--font-family--system, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif);
+	line-height: 1.7;
+}
+
+.editor-styles-wrapper .wp-block {
+	max-width: var(--wp--style--global--content-size, 680px);
+}
+
+.editor-styles-wrapper .wp-block[data-align="wide"] {
+	max-width: var(--wp--style--global--wide-size, 1100px);
+}
+
+.editor-styles-wrapper .wp-block[data-align="full"] {
+	max-width: none;
+}

@@ -1,0 +1,20 @@
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","metadata":{"name":"Main content"},"layout":{"type":"constrained"},"anchor":"main-content","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|60"}}}} -->
+<main id="main-content" class="wp-block-group">
+	<!-- wp:template-part {"slug":"breadcrumb"} /-->
+	<!-- wp:post-title {"level":1} /-->
+	<!-- wp:post-featured-image {"aspectRatio":"16/9","style":{"border":{"radius":"var:custom|radius|large"}}} /-->
+	<!-- wp:template-part {"slug":"post-meta"} /-->
+	<!-- wp:post-content {"layout":{"type":"constrained"}} /-->
+	<!-- wp:post-terms {"term":"post_tag","prefix":"برچسب‌ها: "} /-->
+	<!-- wp:separator {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}}} -->
+	<hr class="wp-block-separator has-alpha-channel-opacity"/>
+	<!-- /wp:separator -->
+	<!-- wp:pattern {"slug":"bloglite/author-box"} /-->
+	<!-- wp:pattern {"slug":"bloglite/related-posts"} /-->
+	<!-- wp:template-part {"slug":"comments"} /-->
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

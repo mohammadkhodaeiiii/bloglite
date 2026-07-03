@@ -1,0 +1,37 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "سپیا",
+	"settings": {
+		"color": {
+			"palette": [
+				{ "slug": "background", "color": "#faf6f1", "name": "Background" },
+				{ "slug": "foreground", "color": "#3d2b1f", "name": "Foreground" },
+				{ "slug": "primary", "color": "#8b5e3c", "name": "Primary" },
+				{ "slug": "primary-foreground", "color": "#faf6f1", "name": "Primary foreground" },
+				{ "slug": "secondary", "color": "#a67c52", "name": "Secondary" },
+				{ "slug": "accent", "color": "#c17817", "name": "Accent" },
+				{ "slug": "muted", "color": "#f0e8dc", "name": "Muted" },
+				{ "slug": "muted-foreground", "color": "#7a6a5a", "name": "Muted foreground" },
+				{ "slug": "border", "color": "#e0d5c7", "name": "Border" }
+			]
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "var(--wp--preset--color--background)",
+			"text": "var(--wp--preset--color--foreground)"
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--serif)"
+		},
+		"elements": {
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--primary)",
+					"text": "var(--wp--preset--color--primary-foreground)"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,115 @@
+# Copyright (C) 2024 Mohammad Khodaei
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: BlogLite 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/mohammadkhodaei/bloglite/issues\n"
+"POT-Creation-Date: 2024-06-28 12:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Manual\n"
+
+#: inc/class-accessibility.php
+msgid "Skip to content"
+msgstr ""
+
+#: inc/class-editor.php
+msgid "Outline"
+msgstr ""
+
+#: inc/class-editor.php
+msgid "Card"
+msgstr ""
+
+#: inc/class-editor.php
+msgid "Rounded"
+msgstr ""
+
+#: inc/class-editor.php
+msgid "Serif"
+msgstr ""
+
+#: inc/class-navigation.php
+msgid "Primary navigation"
+msgstr ""
+
+#: inc/class-navigation.php
+msgid "Menu"
+msgstr ""
+
+#: inc/class-patterns.php
+msgid "BlogLite"
+msgstr ""
+
+#: inc/class-reading.php
+msgid "Reading progress"
+msgstr ""
+
+#: inc/class-reading.php
+msgid "Reading information"
+msgstr ""
+
+#: inc/class-reading.php
+msgid "%d min read"
+msgid_plural "%d min read"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-reading.php
+msgid "%s word"
+msgid_plural "%s words"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-setup.php
+msgid "Primary menu"
+msgstr ""
+
+#: inc/class-setup.php
+msgid "Footer menu"
+msgstr ""
+
+#: inc/class-setup.php
+msgid "Social links"
+msgstr ""
+
+#: patterns/hero.php
+msgid "Hero"
+msgstr ""
+
+#: patterns/featured-post.php
+msgid "Featured Post"
+msgstr ""
+
+#: patterns/latest-posts.php
+msgid "Latest Posts"
+msgstr ""
+
+#: patterns/categories.php
+msgid "Categories Grid"
+msgstr ""
+
+#: patterns/newsletter.php
+msgid "Newsletter"
+msgstr ""
+
+#: patterns/author-box.php
+msgid "Author Box"
+msgstr ""
+
+#: patterns/related-posts.php
+msgid "Related Posts"
+msgstr ""
+
+#: patterns/call-to-action.php
+msgid "Call To Action"
+msgstr ""
+
+#: patterns/footer.php
+msgid "Footer"
+msgstr ""

@@ -1,0 +1,53 @@
+/**
+ * BlogLite print styles.
+ *
+ * @package BlogLite
+ */
+
+@media print {
+	.bloglite-reading-progress,
+	.bloglite-mode-toggle,
+	.wp-block-navigation,
+	.skip-link,
+	.wp-block-comments,
+	.bloglite-reading-meta__separator {
+		display: none !important;
+	}
+
+	body {
+		background: #fff !important;
+		color: #000 !important;
+		font-size: 12pt;
+		line-height: 1.6;
+	}
+
+	.bloglite-readable,
+	.wp-block-post-content {
+		max-width: 100% !important;
+	}
+
+	a[href]::after {
+		content: " (" attr(href) ")";
+		font-size: 0.8em;
+		color: #555;
+	}
+
+	a[href^="#"]::after,
+	a[href^="javascript"]::after {
+		content: "";
+	}
+
+	img {
+		max-width: 100% !important;
+		page-break-inside: avoid;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		page-break-after: avoid;
+	}
+
+	p, blockquote, pre {
+		orphans: 3;
+		widows: 3;
+	}
+}
